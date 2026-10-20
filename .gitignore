@@ -1,0 +1,35 @@
+
+# Copias de seguridad de Kafka
+backup-kafka/
+backup-kafka-final/
+
+# Datos locales de Kafka
+kafka-data/
+kraft-combined-logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Variables privadas
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+.vscode/
+.idea/
+.pytest_cache/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Datos generados localmente
+*.db
+*.sqlite
+*.sqlite3
